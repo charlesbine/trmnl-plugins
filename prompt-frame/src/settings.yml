@@ -215,4 +215,4 @@ custom_fields:
     or turn project notes into a milestone timeline. Write the prompt, pick a
     layout, and set when it refreshes. Start with the rotating lunar outpost
     demo, then add your OpenRouter key for live results.
-  learn_more_url: https://github.com/metaember/trmnl-plugins/blob/main/prompt-frame/README.md
+  learn_more_url: https://github.com/charlesbine/trmnl-plugins/blob/main/prompt-frame/README.md

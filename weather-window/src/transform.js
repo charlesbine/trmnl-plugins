@@ -1396,7 +1396,7 @@ var WeatherWindow = (() => {
   }
 
   // lib/trmnl.js
-  var artworkBase = "https://raw.githubusercontent.com/metaember/trmnl-plugins/main/weather-window/assets/scenes/";
+  var artworkBase = "https://raw.githubusercontent.com/charlesbine/trmnl-plugins/main/weather-window/assets/scenes/";
   var stock = readManifest(manifest_default).map((scene) => ({ ...scene, src: new URL(scene.image, artworkBase).href }));
   var cover = stock.find((scene) => scene.id === "lighthouse-headland");
   function coordinates(location) {

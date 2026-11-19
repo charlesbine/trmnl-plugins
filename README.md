@@ -3,7 +3,7 @@
 Community source for TRMNL plugins maintained by Charles Bine. Bug reports,
 layout improvements, and pull requests are welcome.
 
-[Support and feature requests](https://github.com/metaember/trmnl-plugins/issues)
+[Support and feature requests](https://github.com/charlesbine/trmnl-plugins/issues)
 · [Contribution guide](CONTRIBUTING.md)
 
 | Plugin | Recipe | Source status | License |

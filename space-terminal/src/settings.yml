@@ -30,7 +30,7 @@ custom_fields:
     category: art,entertainment
     description: A fictional spaceport for your e-paper display. Check in for a flight, read the departure board, monitor ship systems, get a mission or docking assignment, intercept a signal, or survey the surface of a moon. Pick a screen or let them rotate daily.
     email_address: trmnl@chrls.io
-    learn_more_url: https://github.com/metaember/trmnl-plugins/blob/main/space-terminal/README.md
+    learn_more_url: https://github.com/charlesbine/trmnl-plugins/blob/main/space-terminal/README.md
 name: Space Terminal
 description: Procedural spaceflight screens.
 refresh_interval: 60

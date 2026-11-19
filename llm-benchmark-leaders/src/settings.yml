@@ -53,8 +53,8 @@ custom_fields:
   field_type: author_bio
   category: programming,productivity
   description: Compare leading LLMs on individual benchmarks, or rotate benchmarks daily. Report bugs, request features or contribute a pull request on GitHub.
-  learn_more_url: https://github.com/metaember/trmnl-plugins/issues
-  github_url: https://github.com/metaember/trmnl-plugins/tree/main/llm-benchmark-leaders
+  learn_more_url: https://github.com/charlesbine/trmnl-plugins/issues
+  github_url: https://github.com/charlesbine/trmnl-plugins/tree/main/llm-benchmark-leaders
 name: LLM Benchmark Leaders
 description:
 refresh_interval: 1440

@@ -83,5 +83,5 @@ custom_fields:
       Enter demo in the regular key field to explore the views with sample
       data. TRMNL polls OpenRouter directly on refresh. Source and support are
       available on GitHub.
-    github_url: https://github.com/metaember/trmnl-plugins/tree/main/openrouter-spend
-    learn_more_url: https://github.com/metaember/trmnl-plugins/issues
+    github_url: https://github.com/charlesbine/trmnl-plugins/tree/main/openrouter-spend
+    learn_more_url: https://github.com/charlesbine/trmnl-plugins/issues
