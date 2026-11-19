@@ -7,7 +7,7 @@ It refreshes hourly by default.
 
 ![Regular-key budget comparison on TRMNL OG Plus with sample data](images/alternate.png)
 
-[Report an issue](https://github.com/metaember/trmnl-plugins/issues)
+[Report an issue](https://github.com/charlesbine/trmnl-plugins/issues)
 
 ## Install
 

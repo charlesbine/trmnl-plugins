@@ -208,5 +208,5 @@ custom_fields:
     field_type: author_bio
     category: weather
     description: Mix illustrated landscapes, local weather, window frames and forecast footers. Forecast data from Open-Meteo.
-    github_url: https://github.com/metaember/trmnl-plugins
-    learn_more_url: https://github.com/metaember/trmnl-plugins/blob/main/weather-window/README.md
+    github_url: https://github.com/charlesbine/trmnl-plugins
+    learn_more_url: https://github.com/charlesbine/trmnl-plugins/blob/main/weather-window/README.md

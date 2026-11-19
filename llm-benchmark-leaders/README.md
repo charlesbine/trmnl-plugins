@@ -12,7 +12,7 @@ Public feed snapshot: November 6, 2026. OG full screen; maintained revision.
 </details>
 
 [Install the published recipe](https://trmnl.com/recipes/101445) ·
-[Report an issue](https://github.com/metaember/trmnl-plugins/issues/new/choose)
+[Report an issue](https://github.com/charlesbine/trmnl-plugins/issues/new/choose)
 
 Compare models on one reported benchmark using the public
 [ZeroEval feed](https://api.zeroeval.com/leaderboard/models/full?justCanonicals=true).

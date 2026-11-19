@@ -1,7 +1,7 @@
 # Contributing
 
 Open an issue or pull request at
-[metaember/trmnl-plugins](https://github.com/metaember/trmnl-plugins).
+[charlesbine/trmnl-plugins](https://github.com/charlesbine/trmnl-plugins).
 Name the affected module and describe what a user sees, the expected behavior,
 and the smallest reproduction you can provide.
 

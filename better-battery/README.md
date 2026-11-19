@@ -12,7 +12,7 @@ Sample charge: 85%. X full screen; maintained revision.
 </details>
 
 [Install the published recipe](https://trmnl.com/recipes/217763) ·
-[Report an issue](https://github.com/metaember/trmnl-plugins/issues/new/choose)
+[Report an issue](https://github.com/charlesbine/trmnl-plugins/issues/new/choose)
 
 A readable battery gauge using TRMNL's device charge percentage. No API key,
 polling endpoint, or external data service is needed. The percentage option

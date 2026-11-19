@@ -15,7 +15,7 @@ New OpenRouter model listings, optional modality and recency filters, and
 weighted input/output token-cost comparisons. No API key or separate backend
 is needed. This module is not yet a published TRMNL recipe.
 
-[Report an issue](https://github.com/metaember/trmnl-plugins/issues/new/choose).
+[Report an issue](https://github.com/charlesbine/trmnl-plugins/issues/new/choose).
 Licensed under the [MIT license](LICENSE). Public factual model metadata is
 used in test fixtures; the description prose is original sample text for
 rendering tests rather than vendor descriptions.

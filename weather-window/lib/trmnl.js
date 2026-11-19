@@ -4,7 +4,7 @@ import { parseForecast } from "./local-weather.js";
 import { readManifest, sceneUrl } from "./scene-library.js";
 import { forecasts } from "./weather.js";
 
-const artworkBase = "https://raw.githubusercontent.com/metaember/trmnl-plugins/main/weather-window/assets/scenes/";
+const artworkBase = "https://raw.githubusercontent.com/charlesbine/trmnl-plugins/main/weather-window/assets/scenes/";
 const stock = readManifest(manifest).map(scene => ({ ...scene, src: new URL(scene.image, artworkBase).href }));
 const cover = stock.find(scene => scene.id === "lighthouse-headland");
 
