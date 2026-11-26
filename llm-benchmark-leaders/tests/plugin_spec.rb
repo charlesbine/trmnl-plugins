@@ -12,7 +12,11 @@ RSpec.describe 'LLM Benchmark Leaders' do
   it_behaves_like 'a publishable recipe'
 
   it 'uses the X screen height for ranked rows and preserves the model names' do
-    screen = trmnl.render(view: 'full', device: 'v2', orientation: :landscape, mocks:, now:)
+    full_feed = mocks.transform_values do |response|
+      extra_rows = Array.new(7) { |i| response[:json].first.merge('name' => "Sample model #{i + 1}", 'gpqa_score' => 0.5) }
+      { json: response[:json] + extra_rows }
+    end
+    screen = trmnl.render(view: 'full', device: 'v2', orientation: :landscape, mocks: full_feed, now:)
     metrics = screen.evaluate(<<~JS)
       (() => {
         const table = document.querySelector('.benchmark-table');
@@ -28,7 +32,7 @@ RSpec.describe 'LLM Benchmark Leaders' do
         };
       })()
     JS
-    expect(metrics.fetch('names').length).to be > 8
+    expect(metrics.fetch('names').length).to be_between(14, 20)
     expect(metrics.fetch('names')).to include('Claude Mythos Preview')
     expect(metrics.fetch('fill')).to be_between(0.90, 1.01)
     expect(metrics.fetch('topGap')).to be < 2
