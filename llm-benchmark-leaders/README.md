@@ -5,6 +5,13 @@
 Public feed snapshot: November 6, 2026. OG full screen; maintained revision.
 
 <details>
+<summary>TRMNL X full screen with GPQA Diamond</summary>
+
+![GPQA Diamond rankings on the TRMNL X](images/full-x.png)
+
+</details>
+
+<details>
 <summary>OG with SWE-bench Pro</summary>
 
 ![llm-benchmark-leaders — OG with SWE-bench Pro](images/alternate.png)
@@ -19,6 +26,10 @@ Compare models on one reported benchmark using the public
 Choose a benchmark or rotate a capability-diverse group each UTC day. Prices
 are source-reported USD per million input/output tokens. Scores are the
 source's reported results, not an overall model recommendation.
+
+The full-screen table fits the number of rankings to the panel height. Narrow
+layouts show model, score, and context. Wider layouts also show organization,
+release date, and token prices.
 
 This folder starts from the published leaderboard exported on November 6,
 2026. It keeps that product rather than the separate experimental decision
